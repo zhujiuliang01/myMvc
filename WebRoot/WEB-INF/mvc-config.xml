@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mvc>
+	<formbeans>
+		<formbean name="example" class="example.formbean.ExampleForm" />
+	</formbeans>
+	<actions>
+		<aciton name="example" type="example.action.ExampleAction" path="abc">
+			<result name="success" value="/WEB-INF/view/exampleSucc.jsp"  />
+			<result name="failure" value="/WEB-INF/view/exampleFail.jsp" />
+		</aciton>
+	</actions>
+</mvc>
